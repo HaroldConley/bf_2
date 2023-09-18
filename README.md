@@ -19,7 +19,7 @@ Desafío técnico
 * main.py: código principal que orquesta a los modelos de recomendaciones
 * Dockerfile: imagen Docker para levantar el contenedor
 
-"""bash
+"""
 ├───.idea
 │   └───inspectionProfiles
 ├───data
