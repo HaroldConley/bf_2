@@ -11,11 +11,13 @@ Desafío técnico
   * raw: data original del proyecto
 * notebooks: códigos de prueba o para generar datos intermedios
 * references: textos de referencia y enunciado
-* reports: informes gneerados para el cliente
+* reports: informes generados para el cliente
 * requirements.txt: archivo para instalar paquetes necesarios para replicar el trabajo
 * src: archivo fuente con los códigos utilizados
   * data: códigos que generan la data usada por el proyecto final
   * models: modelos de recomendación finales
+* main.py: código principal que orquesta a los modelos de recomendaciones
+* Dockerfile: imagen Docker para levantar el contenedor
 
 
 
