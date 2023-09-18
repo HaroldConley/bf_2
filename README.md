@@ -20,5 +20,21 @@ Desafío técnico
 * Dockerfile: imagen Docker para levantar el contenedor
 
 
-
+├───.idea
+│   └───inspectionProfiles
+├───data
+│   ├───external
+│   ├───interim
+│   ├───processed
+│   │   └───xl_sin_nombres
+│   └───raw
+├───notebooks
+├───references
+├───reports
+│   └───figures
+├───src
+│   ├───data
+│   ├───models
+│   │   └───__pycache__
+│   └───__pycache__
 
