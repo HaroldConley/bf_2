@@ -5,7 +5,8 @@ Desafío técnico
 
 * README.md: README con la información del proyecto
 * data
-* * external: datos de fuentes externas al proyecto
+  * external: datos de fuentes externas al proyecto
+  * 
 
 
 
