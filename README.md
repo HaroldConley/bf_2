@@ -3,6 +3,13 @@ Desafío técnico
 
 ## Estructura
 
+* README.md: README con la información del proyecto
+* data
+* * external: datos de fuentes externas al proyecto
+
+
+
+
 - [README.md](#readmemd--readme-con-la-información-del-proyecto)
 - [data](#data)
   - [external](#external--datos-de-fuentes-externas-al-proyecto)
