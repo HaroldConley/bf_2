@@ -3,17 +3,26 @@ Desafío técnico
 
 ## Estructura
 
-- [README.md](#readmemd--readme-con-la-información-del-proyecto)
-- [data](#data)
-  - [external](#external--datos-de-fuentes-externas-al-proyecto)
-  - [interim](#interim--datos-generados-en-pasos-intermedios)
-  - [processed](#processed--datos-finales-usados-en-los-modelos)
-  - [raw](#raw--data-original-del-proyecto)
-- [notebooks](#notebooks)
-- [references](#references)
-- [reports](#reports)
-- [requirements.txt](#requirementstxt--archivo-para-instalar-los-paquetes-necesarios-para-replicar-el-trabajo)
-- [src](#src)
-  - [data](#data-1)
-  - [models](#models)
-
+├── README.md          <- README con la información del proyecto.
+├── data
+│   ├── external       <- Datos de fuentes externas al proyecto.
+│   ├── interim        <- Datos generados en pasos intermedios.
+│   ├── processed      <- Datos finales usados en los modelos.
+│   └── raw            <- Data original del proyecto.
+│
+├── notebooks          <- Códigos de prueba o con trabajos intermedios.
+│
+├── references         <- Materiales de referencia, enunciado, etc.
+│
+├── reports            <- Informes generados (tablas, excel, películas, etc)
+│
+├── requirements.txt   <- Archivo para instalar los paquetes necesarios para replicar el trabajo.
+│
+├── src                <- Fuente con los códigos finales.
+    │   
+    ├── data           <- Códigos para generar los datos usados en los modelos finales.
+    |                     En este caso ya vienen incluidos en el repositorio, no es necesario
+    |                     generarlos nuevamente.
+    │
+    ├── models         <- Modelos usados para dar recomendaciones.
+    
