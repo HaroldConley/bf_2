@@ -7,10 +7,24 @@
 # https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 
 import pandas as pd
+import zipfile
 
 # Deshabilitando alertas
 import warnings
 warnings.filterwarnings("ignore")
+
+################# Descomprimiendo base de datos 'movies_metadata.csv'
+# Nombre del archivo ZIP que deseas descomprimir
+archivo_zip = "data/external/movies_metadata.csv.zip"
+
+# Especifica el directorio de destino donde deseas descomprimir los archivos
+directorio_destino = "data/external/"
+
+# Abre el archivo ZIP en modo lectura
+with zipfile.ZipFile(archivo_zip, 'r') as zip_ref:
+    # Extrae todos los archivos en el directorio de destino
+    zip_ref.extractall(directorio_destino)
+
 
 #################  Inportando datos
 movies_raw = pd.read_csv('data/processed/movies_07_h18.csv', sep=',')
