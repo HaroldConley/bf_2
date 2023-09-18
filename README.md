@@ -3,7 +3,7 @@ Desafío técnico
 
 ## Estructura
 
-├── README.md          <- README con la información del proyecto.
+├── README.md          <- README con la información del proyecto. /n
 ├── data
 │   ├── external       <- Datos de fuentes externas al proyecto.
 │   ├── interim        <- Datos generados en pasos intermedios.
